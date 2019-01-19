@@ -11,3 +11,6 @@ if "{{ cookiecutter.has_wizards }}" == "yes":
 
 if "{{ cookiecutter.has_reports }}" == "yes":
     os.mkdir("reports")
+
+if "{{ cookiecutter.has_controller}}" == "yes":
+    os.mkdir("controllers")
