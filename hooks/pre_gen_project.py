@@ -3,8 +3,8 @@ import re
 import shutil
 
 
-if "{{ cookiecutter.has_models }}" == "yes":
-    os.mkdir("models")
+if "{{ cookiecutter.has_models }}" == "no":
+    shutil.rmtree("models")
 
 if "{{ cookiecutter.has_wizards }}" == "yes":
     os.mkdir("wizards")
