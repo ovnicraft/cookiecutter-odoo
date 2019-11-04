@@ -1,15 +1,15 @@
 Cookiecutter Template for Odoo module
 =====================================
 
-Cookiecutter for ODoo
+Cookiecutter for Odoo
 
 Requirements
 ------------
-Install `cookiecutter` command line: `pip install cookiecutter`    
+Install `cookiecutter` command line: `pip install cookiecutter`
 
 Usage
 -----
-Generate a new Cookiecutter template layout: `cookiecutter gh:ovnicraft/cookiecutter-odoo`    
+Generate a new Cookiecutter template layout: `cookiecutter gh:ovnicraft/cookiecutter-odoo`
 
 License
 -------
