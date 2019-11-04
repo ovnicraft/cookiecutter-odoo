@@ -2,14 +2,13 @@
     "full_name": "Your name",
     "email": "Your address email (eq. you@example.com)",
     "github_username": "Your github username",
-    "project_name": "Name of Odoo Module",
-    "module_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "module_name": "Technical name for your module",
     "module_short_description": "A short description of the module",
     "release_date": "{% now 'local' %}",
     "year": "{% now 'utc', '%Y' %}",
     "version": "0.1.0",
     "open_source_license": ["AGPL-3", "MIT", "OEEL-1"],
-    "module_version": ["10.0", "11.0", "12.0"],
+    "module_version": ["10.0", "11.0", "12.0", "13.0"],
     "development_status": ["Alpha", "Beta", "Production", "Stable", "Mature"],
     "website": "https://github.com/OCA/<repo>",
     "author": "Odoo Community Association (OCA)",
@@ -21,5 +20,6 @@
     "has_wizards": "no",
     "has_reports": "no",
     "has_controller": "no",
+    "include_hooks": "no",
     "_extensions": ["jinja2_time.TimeExtension"]
 }
